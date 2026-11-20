@@ -3,9 +3,12 @@ from django.http import HttpResponse
 
 # Create your views here.]
 
-def hello(request):
-    return HttpResponse("Hello World!")
+def home(request):
+    return HttpResponse("Home Page")
 
-def sum_2number(request):
-    return HttpResponse("<h1>This is a test from here</h1>")
+def contact(request):
+    return HttpResponse("Contact Page")
+
+def about(request):
+    return HttpResponse("About Page")
 
