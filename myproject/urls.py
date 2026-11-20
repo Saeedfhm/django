@@ -22,8 +22,7 @@ from core.tests import run_title
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('hello/', hello),
-    path('test/', sum_2number),
+    path('sum_2number/', sum_2number),
     path('what/', run_title),
-
 ]
 
